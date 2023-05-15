@@ -186,18 +186,47 @@ body {
 .gift-cards-content {
     max-width: 1180px;
     text-align: left;
+    display: flex;
+    margin-top: 50px;
 }
 
 .gift-cards-title {
     color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .gift-cards-text {
     color: black;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .gift-cards .img img {
     padding: 0;
     margin: 0;
-    max-width: 40px;
+    max-width: 600px;
+}
+
+.mb {
+    margin-bottom: 25px;
+}
+
+.text2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 18px;
+}
+
+.link-gift-card {
+    display: inline-block;
+    color: rgb(9, 9, 71);
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.link-gift-card span {
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
 }
